@@ -1,0 +1,125 @@
+{
+  "conversations": [
+    {
+      "id": "1",
+      "participants": ["1", "2"],
+      "participantDetails": [
+        {
+          "userId": "1",
+          "name": "Fatou Sow",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+          "role": "student"
+        },
+        {
+          "userId": "2",
+          "name": "Aminata Diop",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+          "role": "teacher"
+        }
+      ],
+      "lastMessage": "Parfait, on se retrouve mardi à 14h alors !",
+      "lastMessageTime": "2024-12-01T16:30:00.000Z",
+      "unreadCount": { "1": 2, "2": 0 },
+      "createdAt": "2024-11-15T10:00:00.000Z",
+      "updatedAt": "2024-12-01T16:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "participants": ["1", "3"],
+      "participantDetails": [
+        {
+          "userId": "1",
+          "name": "Fatou Sow",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+          "role": "student"
+        },
+        {
+          "userId": "3",
+          "name": "Mamadou Ba",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+          "role": "teacher"
+        }
+      ],
+      "lastMessage": "N'hésitez pas si vous avez des questions sur Python",
+      "lastMessageTime": "2024-11-30T14:20:00.000Z",
+      "unreadCount": { "1": 0, "3": 0 },
+      "createdAt": "2024-11-20T09:00:00.000Z",
+      "updatedAt": "2024-11-30T14:20:00.000Z"
+    },
+    {
+      "id": "3",
+      "participants": ["1", "5"],
+      "participantDetails": [
+        {
+          "userId": "1",
+          "name": "Fatou Sow",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+          "role": "student"
+        },
+        {
+          "userId": "5",
+          "name": "Nomsa Zulu",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+          "role": "teacher"
+        }
+      ],
+      "lastMessage": "Your pronunciation is getting much better!",
+      "lastMessageTime": "2024-11-28T11:15:00.000Z",
+      "unreadCount": { "1": 0, "5": 0 },
+      "createdAt": "2024-11-10T15:30:00.000Z",
+      "updatedAt": "2024-11-28T11:15:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "conversationId": "1",
+      "senderId": "2",
+      "receiverId": "1",
+      "content": "Bonjour ! J'ai bien reçu votre demande de cours. Quand seriez-vous disponible pour un premier échange ?",
+      "timestamp": "2024-12-01T14:00:00.000Z",
+      "read": true,
+      "messageType": "text"
+    },
+    {
+      "id": "2",
+      "conversationId": "1",
+      "senderId": "1",
+      "receiverId": "2",
+      "content": "Bonjour Aminata ! Je suis disponible mardi après-midi ou jeudi matin. Qu'est-ce qui vous convient le mieux ?",
+      "timestamp": "2024-12-01T14:15:00.000Z",
+      "read": true,
+      "messageType": "text"
+    },
+    {
+      "id": "3",
+      "conversationId": "1",
+      "senderId": "2",
+      "receiverId": "1",
+      "content": "Mardi après-midi serait parfait. 14h vous conviendrait ?",
+      "timestamp": "2024-12-01T14:20:00.000Z",
+      "read": true,
+      "messageType": "text"
+    },
+    {
+      "id": "4",
+      "conversationId": "1",
+      "senderId": "1",
+      "receiverId": "2",
+      "content": "Oui, c'est parfait pour moi !",
+      "timestamp": "2024-12-01T14:25:00.000Z",
+      "read": true,
+      "messageType": "text"
+    },
+    {
+      "id": "5",
+      "conversationId": "1",
+      "senderId": "2",
+      "receiverId": "1",
+      "content": "Parfait, on se retrouve mardi à 14h alors !",
+      "timestamp": "2024-12-01T16:30:00.000Z",
+      "read": false,
+      "messageType": "text"
+    }
+  ]
+}

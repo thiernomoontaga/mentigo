@@ -1,0 +1,7 @@
+{
+  "/teachers/search": "/teachers",
+  "/teachers/popular": "/teachers?_sort=rating&_order=desc&_limit=3",
+  "/teachers/:id/profile": "/teachers/:id",
+  "/teachers/:id/reviews": "/reviews?teacherId=:id",
+  "/teachers/:id/availability": "/availability?teacherId=:id"
+}

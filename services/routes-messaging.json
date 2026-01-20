@@ -1,0 +1,6 @@
+{
+  "/conversations": "/conversations",
+  "/conversations/:id/messages": "/messages?conversationId=:id",
+  "/messages/send": "/messages",
+  "/conversations/unread": "/conversations"
+}

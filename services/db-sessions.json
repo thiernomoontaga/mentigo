@@ -1,0 +1,101 @@
+{
+  "sessions": [
+    {
+      "id": "1",
+      "teacherId": "1",
+      "studentId": "1",
+      "subject": "Mathématiques",
+      "date": "2024-12-10T14:00:00.000Z",
+      "duration": 60,
+      "status": "scheduled",
+      "price": 35,
+      "location": "online",
+      "notes": "Chapitre sur les équations différentielles",
+      "createdAt": "2024-12-01T10:00:00.000Z",
+      "updatedAt": "2024-12-01T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "teacherId": "2",
+      "studentId": "1",
+      "subject": "Informatique",
+      "date": "2024-12-13T16:00:00.000Z",
+      "duration": 90,
+      "status": "scheduled",
+      "price": 67.5,
+      "location": "online",
+      "notes": "Introduction à Python et aux algorithmes",
+      "createdAt": "2024-12-01T11:30:00.000Z",
+      "updatedAt": "2024-12-01T11:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "teacherId": "3",
+      "studentId": "1",
+      "subject": "Anglais",
+      "date": "2024-11-28T10:00:00.000Z",
+      "duration": 60,
+      "status": "completed",
+      "price": 30,
+      "location": "online",
+      "notes": "Conversation et grammaire avancée",
+      "rating": 5,
+      "review": "Excellent cours, très pédagogique !",
+      "createdAt": "2024-11-20T09:00:00.000Z",
+      "updatedAt": "2024-11-28T11:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "teacherId": "1",
+      "studentId": "1",
+      "subject": "Physique",
+      "date": "2024-12-05T15:00:00.000Z",
+      "duration": 60,
+      "status": "completed",
+      "price": 35,
+      "location": "online",
+      "notes": "Révision mécanique quantique",
+      "rating": 4,
+      "review": "Très bon professeur, explications claires",
+      "createdAt": "2024-11-25T14:00:00.000Z",
+      "updatedAt": "2024-12-05T16:00:00.000Z"
+    }
+  ],
+  "availability": [
+    {
+      "teacherId": "1",
+      "date": "2024-12-10",
+      "slots": [
+        { "start": "09:00", "end": "10:00", "available": true },
+        { "start": "10:00", "end": "11:00", "available": true },
+        { "start": "11:00", "end": "12:00", "available": false },
+        { "start": "14:00", "end": "15:00", "available": false },
+        { "start": "15:00", "end": "16:00", "available": true },
+        { "start": "16:00", "end": "17:00", "available": true }
+      ]
+    },
+    {
+      "teacherId": "2",
+      "date": "2024-12-13",
+      "slots": [
+        { "start": "14:00", "end": "15:30", "available": false },
+        { "start": "16:00", "end": "17:30", "available": false },
+        { "start": "18:00", "end": "19:00", "available": true }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "sessionId": "1",
+      "studentId": "1",
+      "teacherId": "1",
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "paymentMethod": "card",
+      "amount": 35,
+      "currency": "EUR",
+      "createdAt": "2024-12-01T10:00:00.000Z"
+    }
+  ]
+}

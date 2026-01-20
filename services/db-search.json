@@ -1,0 +1,140 @@
+{
+  "subjects": [
+    {"id": "1", "name": "Mathématiques"},
+    {"id": "2", "name": "Physique"},
+    {"id": "3", "name": "Chimie"},
+    {"id": "4", "name": "Informatique"},
+    {"id": "5", "name": "Français"},
+    {"id": "6", "name": "Anglais"},
+    {"id": "7", "name": "Espagnol"},
+    {"id": "8", "name": "Arabe"},
+    {"id": "9", "name": "Wolof"},
+    {"id": "10", "name": "Swahili"},
+    {"id": "11", "name": "Histoire"},
+    {"id": "12", "name": "Géographie"},
+    {"id": "13", "name": "Philosophie"},
+    {"id": "14", "name": "SVT"},
+    {"id": "15", "name": "Économie"},
+    {"id": "16", "name": "Droit"},
+    {"id": "17", "name": "Art"},
+    {"id": "18", "name": "Musique"},
+    {"id": "19", "name": "Danse"},
+    {"id": "20", "name": "Cuisine Africaine"},
+    {"id": "21", "name": "Culture Africaine"},
+    {"id": "22", "name": "Photographie"}
+  ],
+  "levels": [
+    {"id": "1", "name": "Primaire"},
+    {"id": "2", "name": "Collège"},
+    {"id": "3", "name": "Lycée"},
+    {"id": "4", "name": "Université"},
+    {"id": "5", "name": "Prépa"},
+    {"id": "6", "name": "Professionnel"},
+    {"id": "7", "name": "Adulte débutant"}
+  ],
+  "locations": [
+    {"id": "1", "name": "Dakar"},
+    {"id": "2", "name": "Abidjan"},
+    {"id": "3", "name": "Casablanca"},
+    {"id": "4", "name": "Accra"},
+    {"id": "5", "name": "Johannesburg"},
+    {"id": "6", "name": "Nairobi"},
+    {"id": "7", "name": "Lagos"},
+    {"id": "8", "name": "Tunis"}
+  ],
+  "searchFilters": {
+    "priceRanges": [
+      { "min": 0, "max": 25, "label": "0-25€" },
+      { "min": 25, "max": 35, "label": "25-35€" },
+      { "min": 35, "max": 50, "label": "35-50€" },
+      { "min": 50, "max": 100, "label": "50€+" }
+    ],
+    "ratingFilters": [
+      { "value": 0, "label": "Tous" },
+      { "value": 4, "label": "4+ étoiles" },
+      { "value": 4.5, "label": "4.5+ étoiles" },
+      { "value": 4.8, "label": "4.8+ étoiles" }
+    ],
+    "experienceLevels": [
+      { "min": 0, "max": 2, "label": "Débutant" },
+      { "min": 2, "max": 5, "label": "Intermédiaire" },
+      { "min": 5, "max": 10, "label": "Expérimenté" },
+      { "min": 10, "max": 100, "label": "Expert" }
+    ]
+  },
+  "popularSearches": [
+    { "query": "mathématiques dakar", "count": 245 },
+    { "query": "anglais débutant", "count": 189 },
+    { "query": "informatique python", "count": 156 },
+    { "query": "danse africaine", "count": 134 },
+    { "query": "cuisine africaine", "count": 98 }
+  ],
+  "teacherSearchIndex": [
+    {
+      "teacherId": "1",
+      "searchTerms": ["mathématiques", "physique", "dakar", "aminata diop", "agrégation", "université cheikh anta diop"],
+      "subjects": ["Mathématiques", "Physique"],
+      "location": "Dakar",
+      "rating": 4.9,
+      "hourlyRate": 35,
+      "experience": 15,
+      "verified": true,
+      "availability": ["Lundi", "Mercredi", "Vendredi"]
+    },
+    {
+      "teacherId": "2",
+      "searchTerms": ["informatique", "python", "javascript", "abidjan", "mamadou ba", "école supérieure africaine"],
+      "subjects": ["Informatique", "Mathématiques"],
+      "location": "Abidjan",
+      "rating": 4.8,
+      "hourlyRate": 45,
+      "experience": 10,
+      "verified": true,
+      "availability": ["Mardi", "Jeudi", "Samedi"]
+    },
+    {
+      "teacherId": "3",
+      "searchTerms": ["anglais", "espagnol", "arabe", "cambridge", "casablanca", "fatou ndiaye", "celta"],
+      "subjects": ["Anglais", "Espagnol"],
+      "location": "Casablanca",
+      "rating": 4.7,
+      "hourlyRate": 30,
+      "experience": 8,
+      "verified": true,
+      "availability": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"]
+    },
+    {
+      "teacherId": "4",
+      "searchTerms": ["art", "photographie", "accra", "kofi mensah", "kwame nkrumah university"],
+      "subjects": ["Art", "Photographie"],
+      "location": "Accra",
+      "rating": 4.9,
+      "hourlyRate": 40,
+      "experience": 12,
+      "verified": false,
+      "availability": ["Mercredi", "Samedi", "Dimanche"]
+    },
+    {
+      "teacherId": "5",
+      "searchTerms": ["danse", "culture africaine", "johannesburg", "nomsa zulu", "university of cape town"],
+      "subjects": ["Danse", "Culture Africaine"],
+      "location": "Johannesburg",
+      "rating": 5.0,
+      "hourlyRate": 50,
+      "experience": 9,
+      "verified": true,
+      "availability": ["Mardi", "Jeudi", "Samedi"]
+    },
+    {
+      "teacherId": "6",
+      "searchTerms": ["cuisine africaine", "arts culinaires", "bamako", "amara keita", "institut hôtelier de bamako"],
+      "subjects": ["Cuisine Africaine", "Arts Culinaires"],
+      "location": "Bamako",
+      "rating": 4.8,
+      "hourlyRate": 60,
+      "experience": 20,
+      "verified": true,
+      "availability": ["Samedi", "Dimanche"]
+    }
+  ]
+}

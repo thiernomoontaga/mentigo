@@ -1,0 +1,7 @@
+{
+  "/sessions/upcoming": "/sessions?status=scheduled&_sort=date",
+  "/sessions/history": "/sessions?status=completed&_sort=date&_order=desc",
+  "/sessions/book": "/sessions",
+  "/availability/:teacherId": "/availability?teacherId=:teacherId",
+  "/bookings": "/bookings"
+}

@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "fatou.student@example.com",
+      "password": "password123",
+      "firstName": "Fatou",
+      "lastName": "Sow",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "isVerified": true,
+      "lastLogin": "2024-12-01T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "email": "aminata.diop@example.com",
+      "password": "password123",
+      "firstName": "Aminata",
+      "lastName": "Diop",
+      "role": "teacher",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+      "createdAt": "2023-06-15T00:00:00.000Z",
+      "isVerified": true,
+      "lastLogin": "2024-12-01T09:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "email": "mamadou.ba@example.com",
+      "password": "password123",
+      "firstName": "Mamadou",
+      "lastName": "Ba",
+      "role": "teacher",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+      "createdAt": "2023-08-20T00:00:00.000Z",
+      "isVerified": true,
+      "lastLogin": "2024-12-01T08:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "email": "kofi.mensah@example.com",
+      "password": "password123",
+      "firstName": "Kofi",
+      "lastName": "Mensah",
+      "role": "teacher",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
+      "createdAt": "2023-09-10T00:00:00.000Z",
+      "isVerified": true,
+      "lastLogin": "2024-12-01T07:45:00.000Z"
+    },
+    {
+      "id": "5",
+      "email": "nomsa.zulu@example.com",
+      "password": "password123",
+      "firstName": "Nomsa",
+      "lastName": "Zulu",
+      "role": "teacher",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+      "createdAt": "2023-10-05T00:00:00.000Z",
+      "isVerified": true,
+      "lastLogin": "2024-12-01T06:20:00.000Z"
+    },
+    {
+      "id": "6",
+      "email": "amara.keita@example.com",
+      "password": "password123",
+      "firstName": "Amara",
+      "lastName": "Keita",
+      "role": "teacher",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+      "createdAt": "2023-11-12T00:00:00.000Z",
+      "isVerified": true,
+      "lastLogin": "2024-12-01T05:15:00.000Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "session_123",
+      "userId": "1",
+      "token": "jwt_token_mock_for_user_1",
+      "expiresAt": "2024-12-01T11:00:00.000Z",
+      "createdAt": "2024-12-01T10:00:00.000Z"
+    }
+  ]
+}

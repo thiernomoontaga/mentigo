@@ -1,0 +1,7 @@
+{
+  "/auth/login": "/sessions",
+  "/auth/register": "/users",
+  "/auth/logout": "/sessions",
+  "/users/profile": "/users/:id",
+  "/users/me": "/users/1"
+}

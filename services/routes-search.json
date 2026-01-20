@@ -1,0 +1,8 @@
+{
+  "/search/teachers": "/teacherSearchIndex",
+  "/search/filters": "/searchFilters",
+  "/search/popular": "/popularSearches",
+  "/subjects": "/subjects",
+  "/levels": "/levels",
+  "/locations": "/locations"
+}

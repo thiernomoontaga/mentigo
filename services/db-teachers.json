@@ -1,0 +1,138 @@
+{
+  "teachers": [
+    {
+      "id": "1",
+      "userId": "2",
+      "firstName": "Aminata",
+      "lastName": "Diop",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+      "bio": "Professeure agrégée de mathématiques avec 15 ans d'expérience. Passionnée par la transmission du savoir, j'aide mes élèves à développer leur logique et leur confiance.",
+      "subjects": ["Mathématiques", "Physique"],
+      "rating": 4.9,
+      "reviewCount": 127,
+      "hourlyRate": 35,
+      "location": "Dakar",
+      "languages": ["Français", "Wolof", "Anglais"],
+      "experience": 15,
+      "availability": ["Lundi", "Mercredi", "Vendredi"],
+      "education": [
+        { "degree": "Agrégation de Mathématiques", "institution": "Université Cheikh Anta Diop", "year": 2008 },
+        { "degree": "Master Mathématiques", "institution": "Université Cheikh Anta Diop", "year": 2006 }
+      ],
+      "verified": true,
+      "totalStudents": 89,
+      "responseTime": "2h"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "firstName": "Mamadou",
+      "lastName": "Ba",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+      "bio": "Développeur senior et formateur en programmation. Je rends l'informatique accessible à tous, du débutant au confirmé.",
+      "subjects": ["Informatique", "Mathématiques"],
+      "rating": 4.8,
+      "reviewCount": 89,
+      "hourlyRate": 45,
+      "location": "Abidjan",
+      "languages": ["Français", "Anglais", "Espagnol"],
+      "experience": 10,
+      "availability": ["Mardi", "Jeudi", "Samedi"],
+      "education": [
+        { "degree": "Master Informatique", "institution": "École Supérieure Africaine", "year": 2013 }
+      ],
+      "verified": true,
+      "totalStudents": 67,
+      "responseTime": "1h"
+    },
+    {
+      "id": "3",
+      "userId": "4",
+      "firstName": "Fatou",
+      "lastName": "Ndiaye",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
+      "bio": "Professeure d'anglais certifiée Cambridge. Méthode interactive et personnalisée pour tous les niveaux.",
+      "subjects": ["Anglais", "Espagnol"],
+      "rating": 4.7,
+      "reviewCount": 156,
+      "hourlyRate": 30,
+      "location": "Casablanca",
+      "languages": ["Français", "Anglais", "Arabe", "Espagnol"],
+      "experience": 8,
+      "availability": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
+      "education": [
+        { "degree": "CELTA", "institution": "Cambridge", "year": 2015 },
+        { "degree": "Licence LLCE Anglais", "institution": "Université Mohammed V", "year": 2014 }
+      ],
+      "verified": true,
+      "totalStudents": 94,
+      "responseTime": "3h"
+    },
+    {
+      "id": "4",
+      "userId": "5",
+      "firstName": "Kofi",
+      "lastName": "Mensah",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
+      "bio": "Artiste peintre diplômé des Beaux-Arts. J'enseigne le dessin et la peinture avec passion depuis 12 ans.",
+      "subjects": ["Art", "Photographie"],
+      "rating": 4.9,
+      "reviewCount": 73,
+      "hourlyRate": 40,
+      "location": "Accra",
+      "languages": ["Anglais", "Français", "Twi"],
+      "experience": 12,
+      "availability": ["Mercredi", "Samedi", "Dimanche"],
+      "education": [
+        { "degree": "DNSEP", "institution": "Kwame Nkrumah University", "year": 2011 }
+      ],
+      "verified": false,
+      "totalStudents": 45,
+      "responseTime": "4h"
+    },
+    {
+      "id": "5",
+      "userId": "6",
+      "firstName": "Nomsa",
+      "lastName": "Zulu",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+      "bio": "Danseuse professionnelle et chorégraphe. J'enseigne la danse contemporaine et traditionnelle africaine à tous les âges.",
+      "subjects": ["Danse", "Culture Africaine"],
+      "rating": 5.0,
+      "reviewCount": 64,
+      "hourlyRate": 50,
+      "location": "Johannesburg",
+      "languages": ["Anglais", "Zulu", "Afrikaans"],
+      "experience": 9,
+      "availability": ["Mardi", "Jeudi", "Samedi"],
+      "education": [
+        { "degree": "Diplôme d'État Danse", "institution": "University of Cape Town", "year": 2014 }
+      ],
+      "verified": true,
+      "totalStudents": 38,
+      "responseTime": "1h"
+    },
+    {
+      "id": "6",
+      "userId": "7",
+      "firstName": "Amara",
+      "lastName": "Keita",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+      "bio": "Chef cuisinier spécialisé en cuisine africaine et internationale. Je partage la richesse culinaire de notre continent.",
+      "subjects": ["Cuisine Africaine", "Arts Culinaires"],
+      "rating": 4.8,
+      "reviewCount": 42,
+      "hourlyRate": 60,
+      "location": "Bamako",
+      "languages": ["Français", "Bambara", "Anglais"],
+      "experience": 20,
+      "availability": ["Samedi", "Dimanche"],
+      "education": [
+        { "degree": "CAP Cuisine", "institution": "Institut Hôtelier de Bamako", "year": 2003 }
+      ],
+      "verified": true,
+      "totalStudents": 28,
+      "responseTime": "6h"
+    }
+  ]
+}
