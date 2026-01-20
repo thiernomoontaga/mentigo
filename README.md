@@ -1,4 +1,22 @@
-# Welcome to your Lovable project
+# Scholar Connect - Prototype Version
+
+**Scholar Connect** is a platform connecting African students with qualified teachers for personalized learning experiences.
+
+## ⚠️ Prototype Mode
+
+This version runs in **prototype mode** with simplified authentication:
+- **No real email verification required**
+- **Any email/password combination works for login**
+- **Signup always succeeds** with dummy user creation
+- **Perfect for testing and demonstration purposes**
+
+### Quick Test
+
+Try logging in with any credentials like:
+- Email: `test@example.com`
+- Password: `anything`
+
+Or create a new account through the signup flow - it will always work!
 
 ## Project info
 
@@ -50,15 +68,24 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
+## Features
+
+- **Student & Teacher Onboarding**: Complete registration flows for both user types
+- **Teacher Discovery**: Search and filter qualified African teachers
+- **Messaging System**: Direct communication between students and teachers
+- **Session Management**: Book and manage learning sessions
+- **Responsive Design**: Mobile-first approach with modern UI
+
 ## What technologies are used for this project?
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **React** - Modern UI framework
+- **shadcn-ui** - Beautiful, accessible component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Smooth animations and transitions
 
 ## How can I deploy this project?
 
